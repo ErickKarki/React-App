@@ -1,5 +1,10 @@
 import Card from "./Card.jsx";
 function App() {
-  return <Card />;
+  return (
+    <>
+      <Card />
+      <Card></Card>
+    </>
+  );
 }
 export default App;
